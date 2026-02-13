@@ -161,8 +161,8 @@ const App: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-1 xl:grid-cols-12 gap-10">
-              <div className="xl:col-span-8 space-y-8">
+            <div className="space-y-10">
+              <div className="space-y-8">
                 <div className="bg-slate-900/40 rounded-[2.5rem] border border-slate-800 overflow-hidden shadow-2xl backdrop-blur-sm">
                   <div className="flex border-b border-slate-800 px-6 py-2 justify-between items-center bg-slate-900/60 overflow-x-auto no-scrollbar">
                     <div className="flex gap-4">
@@ -193,7 +193,7 @@ const App: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="xl:col-span-4 h-[600px] xl:h-[850px] xl:sticky xl:top-24"><ChatWindow currentAlgorithm={selectedAlgo} /></div>
+              <div className="h-[600px] lg:h-[760px]"><ChatWindow currentAlgorithm={selectedAlgo} /></div>
             </div>
 
             {/* Footer Attribution Section */}

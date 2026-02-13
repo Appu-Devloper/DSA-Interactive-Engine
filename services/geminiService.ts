@@ -1,9 +1,11 @@
 import { GoogleGenAI } from "@google/genai";
 
 const MODEL_CANDIDATES = [
+  "gemini-3-flash-preview",
+  "gemini-2.5-flash",
+  "gemini-2.5-flash-lite",
   "gemini-2.0-flash",
   "gemini-2.0-flash-lite",
-  "gemini-1.5-flash",
 ];
 
 const buildPrompt = (
